@@ -26,31 +26,6 @@ public class MainActivity extends BaseActivity {
                 Intent intent = new Intent("android.intent.action.second_activity");
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
-                return;
-//                IUserModel userModel = ApiManager.getInstance().getUserModel();
-//
-//                userModel.login("13621310260", "123", new Response<LoginResponse>(MainActivity.this) {
-//                    @Override
-//                    public void onSuccess(LoginResponse response) {
-//                        Log.v("MYTAG","onSuccess...");
-//                        LoginResponse.Data data = response.getData();
-//                    }
-//
-//                    @Override
-//                    public void onStart() {
-//                        Log.v("MYTAG","onStart...");
-//                    }
-//
-//                    @Override
-//                    public void onFail() {
-//                        Log.v("MYTAG","onFail...");
-//                    }
-//
-//                    @Override
-//                    public void onFinish() {
-//                        Log.v("MYTAG","onFinish...");
-//                    }
-//                });
             }
         });
         
