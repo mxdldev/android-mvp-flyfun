@@ -1,40 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0F0F0"
-    tools:context="com.yesway.android.MainActivity">
+    android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        android:text="TEST"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="32dp"/>
     <com.yesway.android.view.MagicTextView
-        android:textSize="78dp"
-        android:textColor="#2a2a2a"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
         android:padding="10dp"
-        app:innerShadowDy="5dp"
+        android:text="1245"
+        android:textColor="#2a2a2a"
+        android:textSize="78dp"
+        android:textStyle="bold"
         app:innerShadowColor="#ff0f"
+        app:innerShadowDy="5dp"
         app:innerShadowRadius="1dp"
-        app:outerShadowDy="3dp"
         app:outerShadowColor="#FF0088ff"
+        app:outerShadowDy="3dp"
         app:outerShadowRadius="10dp"
         app:strokeColor="#FFff0000"
         app:strokeJoinStyle="miter"
-        app:strokeWidth="5dp"
-        android:text="1245"
-        tools:ignore="MissingPrefix"/>
+        app:strokeWidth="5dp"/>
 
-</android.support.constraint.ConstraintLayout>
+    <com.yesway.android.view.ExpandableTextView
+        android:id="@+id/expand_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:animAlphaStart="1"
+        app:expandToggleOnTextClick="false"
+        app:maxCollapsedLines="5"
+        >
+
+        <TextView
+            android:id="@id/expandable_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#2A2A2A"
+            android:textSize="16sp"
+            />
+
+        <ImageButton
+            android:id="@id/expand_collapse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:background="@android:color/transparent"/>
+    </com.yesway.android.view.ExpandableTextView>
+</LinearLayout>
