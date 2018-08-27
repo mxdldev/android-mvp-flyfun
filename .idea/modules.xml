@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MvpCms.iml" filepath="$PROJECT_DIR$/MvpCms.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvpcms.iml" filepath="$PROJECT_DIR$/mvpcms.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
       <module fileurl="file://D:\workspace\MvpCms\yesway2018.iml" filepath="D:\workspace\MvpCms\yesway2018.iml" />
     </modules>

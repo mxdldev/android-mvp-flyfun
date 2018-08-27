@@ -3,10 +3,10 @@
   <component name="EclipseCodeFormatter">
     <option name="defaultSettings" value="true" />
     <option name="formatter" value="ECLIPSE" />
-    <option name="id" value="1493019106702" />
+    <option name="id" value="1476596672120" />
     <option name="name" value="default" />
-    <option name="pathToConfigFileJava" value="D:/soft/android/eclipse-google-code-style.xml" />
-    <option name="selectedJavaProfile" value="GoogleStyle" />
+    <option name="pathToConfigFileJava" value="D:/android_tool/Eclipse_riverlet.xml" />
+    <option name="selectedJavaProfile" value="Eclipse [Riverlet]" />
   </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
@@ -37,6 +37,9 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="masterDetails">
     <states>
