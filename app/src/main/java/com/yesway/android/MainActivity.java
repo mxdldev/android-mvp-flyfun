@@ -30,10 +30,12 @@ public class MainActivity extends BaseActivity {
 		expandableTextView.setText("我们为全球首个人工智能区块链数字资产交易平台（全球前十）提供全面技术支持服务\n"
 				+ "公司以区块链技术开发应用为核心业务方向，获得一线资本千万美元的投资，全力打造全球区块链行业中，安全、透明的区块链资产技术服务平台是我们的企业使命");
 
-		mRotateProgressDialog = new RotateProgressDialog();
-		mRotateProgressDialog.show(getSupportFragmentManager(), "tag");
-		mHandler = new Handler();
-		mHandler.postDelayed(getMytag(), 1000);
+//		mRotateProgressDialog = new RotateProgressDialog();
+//		mRotateProgressDialog.show(getSupportFragmentManager(), "tag");
+//		mHandler = new Handler();
+//		mHandler.postDelayed(getMytag(), 1000);
+		View viewById = findViewById(R.id.txt_value);
+
 	}
 
 	private Runnable getMytag() {

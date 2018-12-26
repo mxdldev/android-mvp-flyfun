@@ -5,25 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
+    <TextView
+        android:id="@+id/txt_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <com.yesway.android.view.MagicTextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
         android:text="1245"
         android:textColor="#2a2a2a"
-        android:textSize="78dp"
-        android:textStyle="bold"
-        app:innerShadowColor="#ff0f"
-        app:innerShadowDy="5dp"
-        app:innerShadowRadius="1dp"
-        app:outerShadowColor="#FF0088ff"
-        app:outerShadowDy="3dp"
-        app:outerShadowRadius="10dp"
-        app:strokeColor="#FFff0000"
+        android:textSize="12dp"
+        app:strokeColor="#c19f68"
+        app:strokeWidth="1dp"
         app:strokeJoinStyle="miter"
-        app:strokeWidth="5dp"/>
+        />
 
+    <com.yesway.android.view.MagicTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1245"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:strokeColor="#c19f68"
+        app:strokeJoinStyle="miter"
+        app:strokeWidth="1dp"/>
     <com.yesway.android.view.ExpandableTextView
         android:id="@+id/expand_text_view"
         android:layout_width="match_parent"
