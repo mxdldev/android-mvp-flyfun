@@ -2,7 +2,7 @@ package com.yesway.android.base.adapter;
 
 /**
  * Description: <><br>
- * Author:      gxl<br>
+ * Author:      mxdl<br>
  * Date:        2018/6/11<br>
  * Version:     V1.0.0<br>
  * Update:     <br>
@@ -17,7 +17,7 @@ import android.view.ViewGroup;
 
 /**
  * Description: <BaseViewPagerAdapter></br>
- * Author:      gxl</br>
+ * Author:      mxdl</br>
  * Date:        2018/3/9</br>
  * Version:     V1.0.0</br>
  * Update:     </br>

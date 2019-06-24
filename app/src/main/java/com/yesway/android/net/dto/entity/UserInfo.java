@@ -2,7 +2,7 @@ package com.yesway.android.net.dto.entity;
 
 /**
  * Description: <><br>
- * Author:      gxl<br>
+ * Author:      mxdl<br>
  * Date:        2018/6/6<br>
  * Version:     V1.0.0<br>
  * Update:     <br>

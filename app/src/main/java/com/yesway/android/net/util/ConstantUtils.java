@@ -2,7 +2,7 @@ package com.yesway.android.net.util;
 
 /**
  * Description: <请求头所要用的一些常量><br>
- * Author: gxl<br>
+ * Author: mxdl<br>
  * Date: 2018/6/6<br>
  * Version: V1.0.0<br>
  * Update: <br>

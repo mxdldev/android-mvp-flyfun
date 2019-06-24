@@ -50,7 +50,7 @@ import android.util.Log;
  * <li>3.获得APK包名</li>
  * <li>4.判断是否已经安装</li>
  * </ul>
- * Author: gxl<br>
+ * Author: mxdl<br>
  * Date: 2018/6/11<br>
  * Version: V1.0.0<br>
  * Update: <br>

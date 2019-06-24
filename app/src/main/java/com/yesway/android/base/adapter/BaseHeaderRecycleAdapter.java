@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by gxl on 2017/12/25.
+ * Created by mxdl on 2017/12/25.
  */
 
 public abstract class BaseHeaderRecycleAdapter<E, VH extends RecyclerView.ViewHolder> extends BaseRecycelerViewAdapter<E, RecyclerView.ViewHolder> {

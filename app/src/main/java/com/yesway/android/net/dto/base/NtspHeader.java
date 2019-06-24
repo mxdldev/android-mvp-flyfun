@@ -5,7 +5,7 @@ package com.yesway.android.net.dto.base;
  * <ul>
  * <li>1.请求头、相应头都会携带该信息</li>
  * </ul>
- * Author: gxl<br>
+ * Author: mxdl<br>
  * Date: 2018/6/6<br>
  * Version: V1.0.0<br>
  * Update: <br>

@@ -18,7 +18,7 @@ import android.widget.Toast;
 
 /**
  * Description: <响应回调接口适配器><br>
- * Author: gxl<br>
+ * Author: mxdl<br>
  * Date: 2018/6/6<br>
  * Version: V1.0.0<br>
  * Update: <br>

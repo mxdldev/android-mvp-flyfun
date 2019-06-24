@@ -2,7 +2,7 @@ package com.yesway.android.net.dto.request;
 
 /**
  * Description: <登陆请求实体><br>
- * Author: gxl<br>
+ * Author: mxdl<br>
  * Date: 2018/6/6<br>
  * Version: V1.0.0<br>
  * Update: <br>

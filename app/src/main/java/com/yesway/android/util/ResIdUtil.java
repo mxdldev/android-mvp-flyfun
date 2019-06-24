@@ -2,7 +2,7 @@ package com.yesway.android.util;
 
 /**
  * Description: <动态获取资源id><br>
- * Author: gxl<br>
+ * Author: mxdl<br>
  * Date: 2018/6/19<br>
  * Version: V1.0.0<br>
  * Update: <br>
